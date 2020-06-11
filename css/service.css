@@ -1,0 +1,143 @@
+/*-----------------------------------------------
+                CONTENT about doctor 
+-----------------------------------------------*/
+.about__doctor {
+    height: 1004px;
+    padding: 140px 0px;
+    background-color: #fff;
+    color: var(--text-color);
+}
+
+.doctor__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.doctor__content-top {
+    text-align: center;
+}
+
+.doctor__content-top h1 {
+    font-size: 6.3rem;
+    font-weight: 700;
+    margin: 20px 0px 0px 0px;
+}
+
+.doctor__content-top p {
+    font-size: 2.8rem;
+    line-height: 3rem;
+    margin: 46px 0px 92px 0px;
+}
+
+.doctor__content-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.doctor__content-img {
+    width: 360px;
+    height: 350px;
+}
+
+.doctor__content-item h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.doctor__content-item .h1__one {
+    margin: 39px 0px 19px 0px;
+}
+
+.doctor__content-item .h1__two {
+    font-weight: 400;
+    margin: 0;
+}
+
+/*-----------------------------------------------
+                CONTENT SERVICE 
+-----------------------------------------------*/
+
+.about__service {
+    height: 1004px;
+    padding: 140px 0px;
+    background-color: var(--background-color-two);
+    color: var(--white-color);
+}
+
+.service__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.service__content-top {
+    text-align: center;
+}
+
+.service__content-top h1 {
+    font-size: 6.3rem;
+    font-weight: 700;
+    margin: 20px 0px 0px 0px;
+}
+
+.service__content-top p {
+    font-size: 2.8rem;
+    line-height: 3rem;
+    margin: 36px 0px 92px 0px;
+}
+
+.service__content-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service__content-img {
+    width: 342px;
+    height: 352px;
+    margin: 0px;
+}
+
+.service__content-item h1 {
+    font-size: 4.5rem;
+    margin: 22px 0px;
+    text-align: center;
+}
+
+.service__content-item h1 span {
+    text-decoration: line-through;
+}
+
+.service__content-button {
+    width: 200px;
+    height: 60px;
+    border: none;
+    background: var(--background-color-one);
+    color: white;
+    border-radius: 3rem;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 3.2rem;
+    cursor: pointer;
+    outline: none;
+    margin-left: 76px;
+    transition: all .4s;
+}
+
+.service__content-button:hover {
+    background: #4b4b4b;
+    transition: all .4s;
+}
+
+.service__content-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*-----------------------------------------------
+                CONTENT UPDATE 
+-----------------------------------------------*/
+.update {
+    background-color: var(--white-color);
+    color: var(--text-color);
+}
+
+

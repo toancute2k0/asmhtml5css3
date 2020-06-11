@@ -1,0 +1,12 @@
+.contact {
+    height: 732px;
+    padding: 140px 0px;
+    background-color: #ffffff;
+    color: var(--text-color);
+}
+
+.contact__content {
+    padding: 64px;
+    text-align: center;
+    font-size: 2.8rem;
+}
